@@ -279,3 +279,354 @@ border-radius: 16px;
   margin: 24px;
   display: flex;
 }
+
+.main-div p {
+  display: block;
+  margin-top: 24px;
+  margin-bottom: 32px;
+}
+.recent-div{
+  margin-top: 80px;
+  margin-bottom: 24px;
+
+}
+.recent-h-head{
+  margin-bottom:  24px;
+}
+.recent-h-des{
+  margin-bottom: 32px;
+}
+.recent-one-main img {
+  border-radius: 24px;
+ 
+}
+.recent-flex{
+  gap: 32px ;
+ 
+  /* border-radius: 24px; */
+  /* background-color: rgba(236, 230, 230, 0.322); */
+}
+.recent-one-H h1{
+  color: rgba(14, 14, 14, 0.8);
+font-family: Fira Sans;
+font-size: 32px;
+font-weight: 700;
+border-bottom: 12px;
+  
+}
+.recent-one-H-p1{
+  color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+margin-top: 12px;
+}
+.recent-one-H-p2{
+  color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+margin-top: 12px;
+margin-bottom: 32px;
+}
+
+.recent-button{
+  padding: 13px 26px 13px 26px;
+  border-radius: 8px;
+
+background: rgb(0, 106, 80);
+border-style: none;
+
+}
+
+/* noob */
+.recent-one-main {
+  padding: 24px;
+  background-color: rgba(245, 245, 245, 1); 
+  border-radius: 24px;
+  margin-bottom: 32px; 
+  box-sizing: border-box;
+}
+
+.recent-one-H {
+  padding: 24px;
+  margin: 16px 0;
+  background-color: rgba(245, 245, 245, 1); 
+  border-radius: 16px;
+  box-sizing: border-box;
+}
+
+
+
+
+/* donate section
+
+.donate-heading h1{
+  color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: center;
+margin-bottom: 24px;
+margin-top: 80px;
+}
+.donate-heading p{
+  color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: center;
+}
+.donate-flex{
+  display: flex;
+  justify-content:space-evenly;
+  align-items: center;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+
+.flex1{
+ padding: 40px;
+background-color: rgba(14, 14, 14, 0.15);
+font-family: Fira Sans;
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: left;
+box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.15);
+border-radius: 16px;
+}
+.flex2{padding: 40px;
+  background-color: rgb(198, 228, 214);
+  font-family: Fira Sans;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0%;
+  text-align: left;
+  box-sizing: border-box;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+
+}
+
+
+.input-donate {
+  box-sizing: border-box;
+border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+background: rgb(255, 255, 255);
+/* Frame 2087325514 */
+position: static;
+width: 1032px;
+height: 64px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+gap: 24;
+padding: 20px 40px 20px 40px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+margin: 32px 0px;
+margin-left: 200px;
+
+}
+
+
+.placeholder-for-flex{
+  justify-content: center;
+  /* margin-bottom: 32px; */
+  
+}
+
+.donate-heading{
+  text-align: center;
+}
+.donate-flex{
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 32px;
+  
+  
+}
+.input-donate{
+width: 100%;
+box-sizing: border-box;
+border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+background: rgb(255, 255, 255);
+padding: 20px 40px 20px 40px;
+text-align: center;
+color: rgba(14, 14, 14, 0.3);
+font-family: Fira Sans;
+font-size: 20px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+/* border-radius: 8px; */
+
+
+}
+.donate-center{
+  margin: 0 auto;
+  width: 80%;
+text-align: center;
+  /* margin-bottom: 32px; */
+}
+.donate-head-h1{
+  color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: center;
+margin-bottom: 24px;
+}
+.donate-p{
+  color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: center;
+margin-bottom: 32px;
+}
+
+.flex1{
+  padding: 40px;
+ background-color: rgba(14, 14, 14, 0.15);
+ font-family: Fira Sans;
+ font-size: 40px;
+ font-weight: 700;
+ line-height: 48px;
+ letter-spacing: 0%;
+ text-align: left;
+ box-sizing: border-box;
+ border: 1px solid rgba(14, 14, 14, 0.15);
+ border-radius: 16px;
+ }
+ .flex2{padding: 40px;
+   background-color: rgb(198, 228, 214);
+   font-family: Fira Sans;
+   font-size: 40px;
+   font-weight: 700;
+   line-height: 48px;
+   letter-spacing: 0%;
+   text-align: left;
+   box-sizing: border-box;
+   border: 1px solid rgba(14, 14, 14, 0.15);
+   border-radius: 16px;
+ 
+ }
+ .btn-donate{
+color: rgb(255, 255, 255);
+ background-color: rgb(0, 106, 80);
+ padding: 17px 34px 17px 34px;
+ margin-top: 32px;
+ border-radius: 8px;
+ border-style: none;
+ }
+
+
+ /* subscribe section start */
+
+
+ .subscribe-main{
+/* Frame 2087325517 */
+position: static;
+width: 1280px;
+height: 395px;
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 64;
+padding: 80px 100px 80px 100px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 5;
+flex-grow: 0;
+margin: 80px 0px;
+border-radius: 24px;
+
+background: rgb(198, 228, 214);
+
+ }
+ .subscribe-main h1 {
+  /* Subscribe Newsletter */
+position: static;
+width: 622px;
+height: 48px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+gap: 16;
+padding: 0px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 16px 0px;
+color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: center;
+ }
+ .subscribe-p1{
+  /* Bangladesh 2.0 aims to redefine the nation’s trajectory by embracing cutting-edge technology, promoting inclusive growth. */
+position: static;
+width: 622px;
+height: 48px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+gap: 16;
+padding: 0px;
+text-align: center;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 16px 0px;
+ }
+ color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: center;
+
+
+
+.subscribe-placeholder{
+
+
+}
